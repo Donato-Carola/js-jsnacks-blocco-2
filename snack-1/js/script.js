@@ -6,12 +6,16 @@
 
 const array =[];
 
-const numberUser = parseInt(prompt('inserisci numero'));
 
 
+let numberUser=0;
 
 
 while(numberUser<50){
+    const numberUser = parseInt(prompt('inserisci numero'));
     array.push(numberUser);
     numberUser++
 }
+
+console.log(array);
+
