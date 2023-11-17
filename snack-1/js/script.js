@@ -12,7 +12,7 @@ let numberUser=0;
 
 
 while(numberUser<50){
-    const numberUser = parseInt(prompt('inserisci numero'));
+    numberUser = parseInt(prompt('inserisci numero'));
     array.push(numberUser);
     numberUser++
 }
