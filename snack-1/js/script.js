@@ -8,14 +8,18 @@ const array =[];
 
 
 
-let numberUser=0;
+let somma=0;
 
 
-while(numberUser<50){
-    numberUser = parseInt(prompt('inserisci numero'));
-    array.push(numberUser);
-    numberUser++
+while(somma<50){
+    const numberUser = parseInt(prompt('inserisci numero'));
+    if (!isNaN(numberUser)){
+        somma +=numberUser;
+         array.push(numberUser);
+    }
+   
+   
 }
 
-console.log(array);
+console.log(array,somma);
 
