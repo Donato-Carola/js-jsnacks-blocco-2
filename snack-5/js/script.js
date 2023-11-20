@@ -6,9 +6,9 @@ const child = document.createElement('h1');
 
 function parentChild(firstElem,secondElem){
     
-    firstElem.appenChild(secondElem);
+    secondElem.appendChild(firstElem);
 
 
 }
 
-parentChild(parent,child)
+parentChild(child,parent);
