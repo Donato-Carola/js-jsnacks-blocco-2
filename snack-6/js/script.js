@@ -17,7 +17,8 @@ function number(){
 
         getSquare.classList.add('style-square')
 
-        const box_square = document.querySelector()
+        const box_square = document.querySelector('div');
+        box_square.innerHTML= `${getSquare}`
 
     }
 }
