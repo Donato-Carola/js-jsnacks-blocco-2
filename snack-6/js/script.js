@@ -9,8 +9,17 @@ const box = document.querySelector('article')
 console.log(box)
 
 
+
 function number(){
-    for(let i=numberUser;i<=numberUser;i++){
-        
+    for(let i=0;i<=numberUser;i++){
+        const getSquare = document.createElement('div')
+        box.appendChild(getSquare);
+
+        getSquare.classList.add('style-square')
+
+        const box_square = document.querySelector()
+
     }
 }
+
+number();
