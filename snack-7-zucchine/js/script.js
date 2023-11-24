@@ -5,55 +5,55 @@
 
 
 var zucchine = [
-    zucchineNere = {
+    {
       varietà: 'Stairway to Heaven',
-      peso: 'Led Zeppelin',
-      lunghezza: '1971'
+      peso: 50,
+      lunghezza: '1'
     },
-    zucchinoromanesco = {
+   {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 10,
+        lunghezza: '2'
     },
-    zucchinoromanesco = {
+     {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 3,
+        lunghezza: '3'
     },
-    zucchinoromanesco = {
+     {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 10,
+        lunghezza: '4'
     },
-    zucchinoromanesco = {
+ {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 5,
+        lunghezza: '5'
     },
-    zucchinoromanesco = {
+    {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 7,
+        lunghezza: '6'
     },
-    zucchinoromanesco = {
+    {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 8,
+        lunghezza: '7'
     },
-    zucchinoromanesco = {
+    {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 9,
+        lunghezza: '8'
     },
-    zucchinoromanesco = {
+     {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 77,
+        lunghezza: '9'
     },
-    zucchinoromanesco = {
+    {
         varietà: 'Stairway to Heaven',
-        peso: 'Led Zeppelin',
-        lunghezza: '1971'
+        peso: 15,
+        lunghezza: '10'
     }
 
   ];
@@ -61,3 +61,11 @@ var zucchine = [
 
 
 console.log(zucchine)
+
+let sommaPeso = 0 ;
+for (let i=0;i<zucchine.length;i++ ){
+    const zucchineAttuale = zucchine[i]
+    sommaPeso=sommaPeso+zucchineAttuale.peso;
+    
+}
+console.log(sommaPeso)
